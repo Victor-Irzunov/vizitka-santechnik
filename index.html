@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- <link rel="android-chrome-192x192" sizes="192x192" href="android-chrome-192x192.png">
+	<link rel="android-chrome-512x512" sizes="512x512" href="android-chrome-512x512.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="shortcut icon" href="apple-touch-icon.png"> -->
+
+	<meta name="description" content="">
+	<link rel="stylesheet" href="style.css">
+	<title>Электрическое отопление</title>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11063759155"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-11063759155');
+	</script>
+
+	<!-- Event snippet for клик по телефону conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof (url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-11063759155/wrK0CNiKkfQDELOizpsp',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
+
+</head>
+
+<body>
+
+	<div class="main">
+		<div class="container">
+			<div class="modal">
+				<div class="modal-box">
+					<div class="modal-exit" onclick="closeModal();">
+						❌
+					</div>
+					<div class="formBx">
+						<form id="form_id">
+							<h3>Напишите мне и я перезвоню с ответом</h3>
+							<input type="text" id="input_text" name="name" placeholder="Имя">
+
+							<input type="tel" name="phone" id="input_tel" placeholder="Телефон *" required>
+							<textarea name="message" id="input_message" placeholder="Ваше сообщение"></textarea>
+							<button class="modal-btn" type="submit">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<main>
+				<div class="box1">
+					<h1 class="gradient-text">Сантехник в Минске</h1>
+					<span class="">с выездом к клиенту</span>
+					<h2>Консультация | Ремонт | Установка</h2>
+					<p class="box1-text">В 20% случаев, проблема решается по телефону с помощью БЕСПЛАТНОЙ  консультации</p>
+					<div class="box-btn">
+						<button onclick="openModal();" class="btn-send">
+							<p>Задать вопрос</p>
+						</button>
+					</div>
+					<div class="box1-p">
+						<p>Работаем по Минску и Минскому району</p>
+					</div>
+
+					<div class="box-list">
+						<h2 class="box1-h2"></h2>
+						<div>
+							<div>
+								<ul>
+									<li>
+										Гермитизация швов в ванной от 15р.
+									</li>
+									<li>
+										Замена труб канализации от 18р.
+									</li>
+									<li>
+										Замена раковины и мойки от 18р.
+									</li>
+									<li>
+										Замена труб водоснабжения от 80р.
+									</li>
+									<li>
+										Прочистка канализации от 45 р.
+									</li>
+									<li>
+										Установка стиральной машины от 30р.
+									</li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li>
+										Установка душевой кабины от 95р.
+									</li>
+									<li>
+										Установка водяного фильтра от 45р.
+									</li>
+									<li>
+										Установка и ремонт бочка от 25р.
+									</li>
+									<li>
+										Установка инсталляции от 95р.
+									</li>
+									<li>
+										Установка полотенцесушителя от 30р.
+									</li>
+									<li>
+										Установка радиаторов отопления от 95р.
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<span class="box1-span">Опыт более 10 лет | 200+ обьектов | Соблюдение сроков | Гарантия</span>
+				</div>
+
+
+
+				<div class="tel">
+					<a onclick="return gtag_report_conversion('tel:80333613612');" href="tel:8033">+375 29
+						000-00-00</a>
+				</div>
+				<div class="box-2">
+
+					<div></div>
+					<div class="box1-2">
+						<div>
+							<img src="./5.webp" alt="">
+							<p>Консультация</p>
+						</div>
+						<div>
+							<img src="./11.webp" alt="">
+							<p>Ремонт</з>
+						</div>
+						<div>
+							<img src="./aztec.webp" alt="">
+							<p>Монтаж</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript">
+
+
+		const token = '5562126487:AAGqX2TBd3toX15OgSCQ2yW55RNfgtBWQko'
+		const chat_id = '-1001794221917'
+		const uri_api = `https://api.telegram.org/bot${token}/sendMessage`
+
+
+
+		const btn = document.querySelector('.modal-btn')
+
+		document.getElementById('form_id').addEventListener('submit', function (e) {
+			e.preventDefault()
+			let messageForm = `<b>Заказ с сайта сантехник</b>\n`
+			messageForm += `<b> </b>\n`
+			messageForm += `<b>Сообщение: </b> <i>«${this.message.value}»</i>\n`
+			messageForm += `<b> </b>\n`
+			messageForm += `<b>Отправитель: ${this.name.value}</b> \n`
+			messageForm += `<b>Телефон:${this.phone.value} </b> \n`
+
+			axios.post(uri_api, {
+				chat_id,
+				parse_mode: 'html',
+				text: messageForm,
+			}).then(data => {
+				btn.innerHTML = 'Отправлено'
+				setTimeout(() => {
+					// closeModal()
+					btn.innerHTML = 'Отправить'
+				}, 2000)
+			}).then(data => {
+				document.getElementById('input_text').value = ''
+				document.getElementById('input_tel').value = ''
+				document.getElementById('input_message').value = ''
+			})
+		})
+		// }
+
+		function openModal() {
+			document.querySelector('.modal').classList.add('active')
+		}
+		const closeModal = () => document.querySelector('.modal').classList.remove('active')
+	</script>
+
+</body>
+
+</html>
