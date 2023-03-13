@@ -398,6 +398,7 @@ padding: 20px 20px 20px 20px;
 .box1 .box1-h2 {
 	font-weight: 200;
 	font-size: 1.1em;
+	margin-bottom: .5em;
 }
 }
 @media screen and (max-width: 414px){
