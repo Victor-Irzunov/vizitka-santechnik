@@ -92,6 +92,8 @@ position: relative;
  }
  .box1-vyezd{
 	font-weight: 400 !important;
+	padding-left: .5em;
+	margin-bottom: 1em;
  }
 .box1-text{
 	color: #fff;
@@ -189,6 +191,7 @@ position: relative;
 	font-size: 1.2em;
 	margin-bottom: .5em;
 	font-weight: 400;
+	list-style-type: disc;
 }
 
 
@@ -374,6 +377,9 @@ padding: 20px 20px 20px 20px;
 	}
 	.tel a {
 		font-size: 1.8em;
+  }
+  .box1-p p{
+	font-size: 1em;
   }
   .box1 h1 {
 	font-size: 2.3em;
