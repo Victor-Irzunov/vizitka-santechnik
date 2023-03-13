@@ -78,6 +78,12 @@ position: relative;
 	line-height: 1.2;
 	font-weight: 600;
 }
+.box1-clock{
+	margin-top: 1em;
+	display: flex;
+	justify-content: space-between;
+
+}
 .gradient-text {
 	background: linear-gradient( to right, #4facfe 0%, #00f2fe 100%);
 	-webkit-background-clip: text;
@@ -399,6 +405,10 @@ padding: 20px 20px 20px 20px;
 	font-weight: 200;
 	font-size: 1.1em;
 	margin-bottom: .5em;
+}
+.box1-clock{
+flex-direction: column;
+margin-top: .2em;
 }
 }
 @media screen and (max-width: 414px){
